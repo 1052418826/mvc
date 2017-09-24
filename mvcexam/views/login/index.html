@@ -1,0 +1,11 @@
+<div>       
+        {foreach $data}
+        <div>
+          <div>{$v['name']}发表于</div>
+          <div>
+                {$v['content']}
+          </div>    
+        </div>
+        {/foreach}
+        <div>{$pagestr}</div>
+</div>
